@@ -3,11 +3,9 @@
 
 This plugin converts naming convention for you. 
 
-eg. renaming getConfig => get\_config or get\_config to getConfig
-
+eg. rename getConfigLoader => get\_config\_loader or get\_config\_loader to getConfigLoader
 
 This plugin provides two functions:
-
 
 ### Visual Mapping
 
