@@ -29,7 +29,6 @@ endf
 fun! s:vNamingConvention()
   let word = expand('<cword>')
   let new_word = s:smartConvention(word)
-
   normal `<
   let pos1 = getpos('.')
   normal `>
@@ -40,6 +39,12 @@ fun! s:vNamingConvention()
   cal setline( '.' , line )
 endf
 
+fun! s:vNamingConventionGlobal()
+  let word = expand('<cword>')
+  exec printf('ConvertNamingConvention %s', word)
+endf
+
+
 fun! s:cConvertNamingConvention(line1,line2,from)
   let word = a:from
   let new_word = s:smartConvention(word)
@@ -47,5 +52,6 @@ fun! s:cConvertNamingConvention(line1,line2,from)
   exec subcmd
 endf
 
-vnoremap <silent> _ :cal <SID>vNamingConvention()<CR>
+vnoremap <silent> __ :cal <SID>vNamingConvention()<CR>
+vnoremap <silent> _g :cal <SID>vNamingConventionGlobal()<CR>
 com! -range=% -nargs=1 ConvertNamingConvention  :cal s:cConvertNamingConvention( <line1>, <line2>, <q-args> )

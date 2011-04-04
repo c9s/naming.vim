@@ -9,9 +9,9 @@ This plugin provides two functions:
 
 ### Visual Mapping
 
-    vnoremap <silent> _ :cal <SID>vNamingConvention()<CR>
+Use visual-block mode to select word, press `_` key twice to convert name.
 
-Use visual-block mode to select word, press `_` key to convert name.
+Use visual-block mode to select word, press `_g` to convert names (replace all words in current buffer)
 
 ### Command
 
