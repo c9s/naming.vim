@@ -1,0 +1,26 @@
+
+# Naming Convention
+
+This plugin converts naming convention for you. 
+
+eg. renaming getConfig => get\_config or get\_config to getConfig
+
+
+This plugin provides two functions:
+
+
+### Visual Mapping
+
+    vnoremap <silent> _ :cal <SID>vNamingConvention()<CR>
+
+Use visual-block mode to select word, press `_` key to convert name.
+
+### Command
+
+    com! -range=% -nargs=1 ConvertNamingConvention  :cal s:cConvertNamingConvention( <line1>, <line2>, <q-args> )
+
+use command `ConvertNamingConvention` to convert names. eg.
+
+    :ConvertNamingConvention get_config
+
+Range is allowed.
