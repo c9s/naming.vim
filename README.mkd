@@ -22,3 +22,13 @@ use command `ConvertNamingConvention` to convert names. eg.
     :ConvertNamingConvention get_config
 
 Range is allowed.
+
+### Autoload/Global functions
+
+    " naming to case-seperated name
+    naming#namingCS(word)
+
+    " naming to delmiter-seperated name
+    naming#namingDS(word)
+
+    g:smartNamingConvention(word)

@@ -1,0 +1,196 @@
+
+chdir(/opt/local/etc)
+fchdir() to previous dir
+could not source "/opt/local/etc/vimrc"
+chdir(/opt/local/share/vim/vim73)
+fchdir() to previous dir
+could not source "$VIMRUNTIME/macmap.vim"
+chdir(/Users/c9s)
+fchdir() to previous dir
+sourcing "$HOME/.vimrc"
+chdir(/opt/local/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 11: sourcing "/opt/local/share/vim/vim73/syntax/syntax.vim"
+Searching for "syntax/synload.vim" in "/Users/c9s/.vim,/opt/local/share/vim/vimfiles,/opt/local/share/vim/vim73,/opt/local/share/vim/vimfiles/after,/Users/c9s/.vim/after"
+Searching for "/Users/c9s/.vim/syntax/synload.vim"
+Searching for "/opt/local/share/vim/vimfiles/syntax/synload.vim"
+Searching for "/opt/local/share/vim/vim73/syntax/synload.vim"
+chdir(/opt/local/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 19: sourcing "/opt/local/share/vim/vim73/syntax/synload.vim"
+Searching for "syntax/syncolor.vim" in "/Users/c9s/.vim,/opt/local/share/vim/vimfiles,/opt/local/share/vim/vim73,/opt/local/share/vim/vimfiles/after,/Users/c9s/.vim/after"
+Searching for "/Users/c9s/.vim/syntax/syncolor.vim"
+Searching for "/opt/local/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/opt/local/share/vim/vim73/syntax/syncolor.vim"
+chdir(/opt/local/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 21: sourcing "/opt/local/share/vim/vim73/syntax/syncolor.vim"
+finished sourcing /opt/local/share/vim/vim73/syntax/syncolor.vim
+continuing in /opt/local/share/vim/vim73/syntax/synload.vim
+Searching for "/opt/local/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/Users/c9s/.vim/after/syntax/syncolor.vim"
+finished sourcing /opt/local/share/vim/vim73/syntax/synload.vim
+continuing in /opt/local/share/vim/vim73/syntax/syntax.vim
+Searching for "filetype.vim" in "/Users/c9s/.vim,/opt/local/share/vim/vimfiles,/opt/local/share/vim/vim73,/opt/local/share/vim/vimfiles/after,/Users/c9s/.vim/after"
+Searching for "/Users/c9s/.vim/filetype.vim"
+Searching for "/opt/local/share/vim/vimfiles/filetype.vim"
+Searching for "/opt/local/share/vim/vim73/filetype.vim"
+chdir(/opt/local/share/vim/vim73)
+fchdir() to previous dir
+line 25: sourcing "/opt/local/share/vim/vim73/filetype.vim"
+Searching for "ftdetect/*.vim" in "/Users/c9s/.vim,/opt/local/share/vim/vimfiles,/opt/local/share/vim/vim73,/opt/local/share/vim/vimfiles/after,/Users/c9s/.vim/after"
+Searching for "/Users/c9s/.vim/ftdetect/*.vim"
+chdir(/Users/c9s/.vim/ftdetect)
+fchdir() to previous dir
+line 2476: sourcing "/Users/c9s/.vim/ftdetect/filefind.vim"
+finished sourcing /Users/c9s/.vim/ftdetect/filefind.vim
+continuing in /opt/local/share/vim/vim73/filetype.vim
+chdir(/Users/c9s/.vim/ftdetect)
+fchdir() to previous dir
+line 2476: sourcing "/Users/c9s/.vim/ftdetect/markdown.vim"
+finished sourcing /Users/c9s/.vim/ftdetect/markdown.vim
+continuing in /opt/local/share/vim/vim73/filetype.vim
+chdir(/Users/c9s/.vim/ftdetect)
+fchdir() to previous dir
+line 2476: sourcing "/Users/c9s/.vim/ftdetect/rspec.vim"
+finished sourcing /Users/c9s/.vim/ftdetect/rspec.vim
+continuing in /opt/local/share/vim/vim73/filetype.vim
+chdir(/Users/c9s/.vim/ftdetect)
+fchdir() to previous dir
+line 2476: sourcing "/Users/c9s/.vim/ftdetect/vim++.vim"
+finished sourcing /Users/c9s/.vim/ftdetect/vim++.vim
+continuing in /opt/local/share/vim/vim73/filetype.vim
+Searching for "/opt/local/share/vim/vimfiles/ftdetect/*.vim"
+Searching for "/opt/local/share/vim/vim73/ftdetect/*.vim"
+Searching for "/opt/local/share/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/Users/c9s/.vim/after/ftdetect/*.vim"
+finished sourcing /opt/local/share/vim/vim73/filetype.vim
+continuing in /opt/local/share/vim/vim73/syntax/syntax.vim
+Searching for "/opt/local/share/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/c9s/.vim/after/filetype.vim"
+finished sourcing /opt/local/share/vim/vim73/syntax/syntax.vim
+continuing in /Users/c9s/.vimrc
+Searching for "filetype.vim" in "/Users/c9s/.vim,/opt/local/share/vim/vimfiles,/opt/local/share/vim/vim73,/opt/local/share/vim/vimfiles/after,/Users/c9s/.vim/after"
+Searching for "/Users/c9s/.vim/filetype.vim"
+Searching for "/opt/local/share/vim/vimfiles/filetype.vim"
+Searching for "/opt/local/share/vim/vim73/filetype.vim"
+chdir(/opt/local/share/vim/vim73)
+fchdir() to previous dir
+line 12: sourcing "/opt/local/share/vim/vim73/filetype.vim"
+finished sourcing /opt/local/share/vim/vim73/filetype.vim
+continuing in /Users/c9s/.vimrc
+Searching for "/opt/local/share/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/c9s/.vim/after/filetype.vim"
+Searching for "filetype.vim" in "/Users/c9s/.vim,/opt/local/share/vim/vimfiles,/opt/local/share/vim/vim73,/opt/local/share/vim/vimfiles/after,/Users/c9s/.vim/after"
+Searching for "/Users/c9s/.vim/filetype.vim"
+Searching for "/opt/local/share/vim/vimfiles/filetype.vim"
+Searching for "/opt/local/share/vim/vim73/filetype.vim"
+chdir(/opt/local/share/vim/vim73)
+fchdir() to previous dir
+line 13: sourcing "/opt/local/share/vim/vim73/filetype.vim"
+finished sourcing /opt/local/share/vim/vim73/filetype.vim
+continuing in /Users/c9s/.vimrc
+Searching for "/opt/local/share/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/c9s/.vim/after/filetype.vim"
+Searching for "ftplugin.vim" in "/Users/c9s/.vim,/opt/local/share/vim/vimfiles,/opt/local/share/vim/vim73,/opt/local/share/vim/vimfiles/after,/Users/c9s/.vim/after"
+Searching for "/Users/c9s/.vim/ftplugin.vim"
+Searching for "/opt/local/share/vim/vimfiles/ftplugin.vim"
+Searching for "/opt/local/share/vim/vim73/ftplugin.vim"
+chdir(/opt/local/share/vim/vim73)
+fchdir() to previous dir
+line 13: sourcing "/opt/local/share/vim/vim73/ftplugin.vim"
+finished sourcing /opt/local/share/vim/vim73/ftplugin.vim
+continuing in /Users/c9s/.vimrc
+Searching for "/opt/local/share/vim/vimfiles/after/ftplugin.vim"
+Searching for "/Users/c9s/.vim/after/ftplugin.vim"
+Searching for "filetype.vim" in "/Users/c9s/.vim,/opt/local/share/vim/vimfiles,/opt/local/share/vim/vim73,/opt/local/share/vim/vimfiles/after,/Users/c9s/.vim/after"
+Searching for "/Users/c9s/.vim/filetype.vim"
+Searching for "/opt/local/share/vim/vimfiles/filetype.vim"
+Searching for "/opt/local/share/vim/vim73/filetype.vim"
+chdir(/opt/local/share/vim/vim73)
+fchdir() to previous dir
+line 14: sourcing "/opt/local/share/vim/vim73/filetype.vim"
+finished sourcing /opt/local/share/vim/vim73/filetype.vim
+continuing in /Users/c9s/.vimrc
+Searching for "/opt/local/share/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/c9s/.vim/after/filetype.vim"
+Searching for "indent.vim" in "/Users/c9s/.vim,/opt/local/share/vim/vimfiles,/opt/local/share/vim/vim73,/opt/local/share/vim/vimfiles/after,/Users/c9s/.vim/after"
+Searching for "/Users/c9s/.vim/indent.vim"
+Searching for "/opt/local/share/vim/vimfiles/indent.vim"
+Searching for "/opt/local/share/vim/vim73/indent.vim"
+chdir(/opt/local/share/vim/vim73)
+fchdir() to previous dir
+line 14: sourcing "/opt/local/share/vim/vim73/indent.vim"
+finished sourcing /opt/local/share/vim/vim73/indent.vim
+continuing in /Users/c9s/.vimrc
+Searching for "/opt/local/share/vim/vimfiles/after/indent.vim"
+Searching for "/Users/c9s/.vim/after/indent.vim"
+Searching for "syntax/syncolor.vim" in "/Users/c9s/.vim,/opt/local/share/vim/vimfiles,/opt/local/share/vim/vim73,/opt/local/share/vim/vimfiles/after,/Users/c9s/.vim/after,/Users/c9s/mygit/hypergit.vim/"
+Searching for "/Users/c9s/.vim/syntax/syncolor.vim"
+Searching for "/opt/local/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/opt/local/share/vim/vim73/syntax/syncolor.vim"
+chdir(/opt/local/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 869: sourcing "/opt/local/share/vim/vim73/syntax/syncolor.vim"
+finished sourcing /opt/local/share/vim/vim73/syntax/syncolor.vim
+continuing in /Users/c9s/.vimrc
+Searching for "/opt/local/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/Users/c9s/.vim/after/syntax/syncolor.vim"
+Searching for "/Users/c9s/mygit/hypergit.vim/syntax/syncolor.vim"
+chdir(/opt/local/share/vim/vim73)
+fchdir() to previous dir
+line 1991: sourcing "/opt/local/share/vim/vim73/menu.vim"
+Searching for "lang/menu_zh_tw.utf-8.vim" in "/Users/c9s/.vim,/opt/local/share/vim/vimfiles,/opt/local/share/vim/vim73,/opt/local/share/vim/vimfiles/after,/Users/c9s/.vim/after,/Users/c9s/mygit/hypergit.vim/"
+Searching for "/Users/c9s/.vim/lang/menu_zh_tw.utf-8.vim"
+Searching for "/opt/local/share/vim/vimfiles/lang/menu_zh_tw.utf-8.vim"
+Searching for "/opt/local/share/vim/vim73/lang/menu_zh_tw.utf-8.vim"
+Searching for "/opt/local/share/vim/vimfiles/after/lang/menu_zh_tw.utf-8.vim"
+Searching for "/Users/c9s/.vim/after/lang/menu_zh_tw.utf-8.vim"
+Searching for "/Users/c9s/mygit/hypergit.vim/lang/menu_zh_tw.utf-8.vim"
+not found in 'runtimepath': "lang/menu_zh_tw.utf-8.vim"
+Searching for "lang/menu_zh_tw[^a-z]*vim" in "/Users/c9s/.vim,/opt/local/share/vim/vimfiles,/opt/local/share/vim/vim73,/opt/local/share/vim/vimfiles/after,/Users/c9s/.vim/after,/Users/c9s/mygit/hypergit.vim/"
+Searching for "/Users/c9s/.vim/lang/menu_zh_tw[^a-z]*vim"
+Searching for "/opt/local/share/vim/vimfiles/lang/menu_zh_tw[^a-z]*vim"
+Searching for "/opt/local/share/vim/vim73/lang/menu_zh_tw[^a-z]*vim"
+Searching for "/opt/local/share/vim/vimfiles/after/lang/menu_zh_tw[^a-z]*vim"
+Searching for "/Users/c9s/.vim/after/lang/menu_zh_tw[^a-z]*vim"
+Searching for "/Users/c9s/mygit/hypergit.vim/lang/menu_zh_tw[^a-z]*vim"
+not found in 'runtimepath': "lang/menu_zh_tw[^a-z]*vim"
+Searching for "lang/menu_en_us[^a-z]*vim" in "/Users/c9s/.vim,/opt/local/share/vim/vimfiles,/opt/local/share/vim/vim73,/opt/local/share/vim/vimfiles/after,/Users/c9s/.vim/after,/Users/c9s/mygit/hypergit.vim/"
+Searching for "/Users/c9s/.vim/lang/menu_en_us[^a-z]*vim"
+Searching for "/opt/local/share/vim/vimfiles/lang/menu_en_us[^a-z]*vim"
+Searching for "/opt/local/share/vim/vim73/lang/menu_en_us[^a-z]*vim"
+Searching for "/opt/local/share/vim/vimfiles/after/lang/menu_en_us[^a-z]*vim"
+Searching for "/Users/c9s/.vim/after/lang/menu_en_us[^a-z]*vim"
+Searching for "/Users/c9s/mygit/hypergit.vim/lang/menu_en_us[^a-z]*vim"
+not found in 'runtimepath': "lang/menu_en_us[^a-z]*vim"
+Searching for "autoload/paste.vim" in "/Users/c9s/.vim,/opt/local/share/vim/vimfiles,/opt/local/share/vim/vim73,/opt/local/share/vim/vimfiles/after,/Users/c9s/.vim/after,/Users/c9s/mygit/hypergit.vim/"
+Searching for "/Users/c9s/.vim/autoload/paste.vim"
+Searching for "/opt/local/share/vim/vimfiles/autoload/paste.vim"
+Searching for "/opt/local/share/vim/vim73/autoload/paste.vim"
+chdir(/opt/local/share/vim/vim73/autoload)
+fchdir() to previous dir
+line 156: sourcing "/opt/local/share/vim/vim73/autoload/paste.vim"
+finished sourcing /opt/local/share/vim/vim73/autoload/paste.vim
+continuing in /opt/local/share/vim/vim73/menu.vim
+finished sourcing /opt/local/share/vim/vim73/menu.vim
+continuing in /Users/c9s/.vimrc
+chdir(/Users/c9s)
+fchdir() to previous dir
+line 2000: sourcing "/Users/c9s/.plurk"
+finished sourcing /Users/c9s/.plurk
+continuing in /Users/c9s/.vimrc
+chdir(/Users/c9s)
+fchdir() to previous dir
+line 2463: sourcing "/Users/c9s/.blogger.vim"
+finished sourcing /Users/c9s/.blogger.vim
+continuing in /Users/c9s/.vimrc
+finished sourcing $HOME/.vimrc
+Reading viminfo file "/Users/c9s/.viminfo" info oldfiles
+line 0: sourcing ".mkrecord"
+Calling shell to execute: "(cat /Users/c9s/.vim/plugin/naming.vim | md5) >/var/folders/4o/4omYKsGdFEyBuGRUVlwuNU+++TM/-Tmp-/vIUW6Tq/0 2>&1"{'version': 0.3, 'files': [{'file': '/Users/c9s/.vim/plugin/naming.vim', 'checksum': 'a00179fa7c2f16b89033489e86a0b69c
+'}], 'install_type': 'makefile', 'script_version': '0.1', 'package': 'naming.vim', 'generated_by': 'Vim-Makefile'}
+Done
+    finished sourcing .mkrecord
+    continuing in command line
+    Writing viminfo file "/Users/c9s/.viminfo"
