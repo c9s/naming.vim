@@ -28,7 +28,7 @@ Range is allowed.
     " naming to case-seperated name
     naming#namingCS(word)
 
-    " naming to delmiter-seperated name
+    " naming to delimiter-seperated name
     naming#namingDS(word)
 
     g:smartNamingConvention(word)

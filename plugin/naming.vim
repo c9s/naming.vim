@@ -1,7 +1,7 @@
 
 
 fun! g:smartNamingConvention(word)
-  " is a delmiter-seperated name
+  " is a delimiter-seperated name
   if a:word =~ '_'
 	return naming#namingCS( a:word )
 
