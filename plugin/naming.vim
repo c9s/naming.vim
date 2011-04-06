@@ -1,5 +1,4 @@
 
-
 fun! g:smartNamingConvention(word)
   " is a delimiter-seperated name
   if a:word =~ '_'
@@ -14,16 +13,15 @@ endf
 
 
 fun! s:vNamingConvention()
-  let word = expand('<cword>')
-  let new_word = g:smartNamingConvention(word)
   normal `<
   let pos1 = getpos('.')
   normal `>
   let pos2 = getpos('.')
-
   let line = getline('.')
-  let line = strpart(line,0,pos1[2] - 1) . new_word . strpart(line,pos2[2])
-  cal setline( '.' , line )
+  let word = strpart( line, pos1[2] - 1 , pos2[2] - pos1[2] + 1 )
+  let new_word = g:smartNamingConvention(word)
+  let newline = strpart(line,0,pos1[2] - 1) . new_word . strpart(line,pos2[2])
+  cal setline( '.' , newline )
 endf
 
 fun! s:vNamingConventionGlobal()
